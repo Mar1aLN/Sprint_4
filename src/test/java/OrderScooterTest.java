@@ -80,7 +80,7 @@ public class OrderScooterTest {
 
     @Before
     public void before() {
-        driver = WebDriverHelper.getFireFoxDriver();
+        driver = WebDriverHelper.getChromeDriver();
         driver.get(Url.QA_SCOOTER_URL);
 
     }
